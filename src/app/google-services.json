@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "697873447941",
+    "firebase_url": "https://socialstudent-91818.firebaseio.com",
+    "project_id": "socialstudent-91818",
+    "storage_bucket": "socialstudent-91818.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:697873447941:android:6e21dcfcbf3de1c1",
+        "android_client_info": {
+          "package_name": "fr.eurecom.android.socialstudent"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "697873447941-u4sc692ijd4qar1uuvus5n72kbhu3m3j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "fr.eurecom.android.socialstudent",
+            "certificate_hash": "525be846c9fd20e0ed2f2ac764c390ed740ac97b"
+          }
+        },
+        {
+          "client_id": "697873447941-92u7lv9pul8kles3442vltpisujlqram.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNKH2e10_sW13ZJu7XP8gaQ4yBoc2sqfY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "697873447941-92u7lv9pul8kles3442vltpisujlqram.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:697873447941:android:d75011bf9ffe7f4d",
+        "android_client_info": {
+          "package_name": "socialstudent.eurecom.fr.socialstudent"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "697873447941-7doab45j414ldcaj3s3ktu2aeke61l24.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "socialstudent.eurecom.fr.socialstudent",
+            "certificate_hash": "bf058d17dd2b68ddbacce50da5f0c2d9a0a874fe"
+          }
+        },
+        {
+          "client_id": "697873447941-92u7lv9pul8kles3442vltpisujlqram.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNKH2e10_sW13ZJu7XP8gaQ4yBoc2sqfY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "697873447941-92u7lv9pul8kles3442vltpisujlqram.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
