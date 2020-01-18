@@ -1,0 +1,93 @@
+<resources>
+    <string name="app_name">Social Student</string>
+    <string name="password">Password</string>
+    <string name="email_address">Email Address</string>
+    <string name="login">login</string>
+    <string name="sign_up">No account yet? Create one</string>
+    <string name="hint_gender">I am</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="btn_link_login">You have already an account? Log in!</string>
+    <string name="btn_sign_up">Register</string>
+    <string name="user_email">Email</string>
+    <string name="user_password">Password</string>
+    <string name="user_confirm_password">Confirm Password</string>
+    <string name="user_name">Name</string>
+    <string-array name="residency_array">
+        <item>Résidence universitaire Isaac Newton</item>
+        <item>Résidence universitaire Les Dolines</item>
+        <item>Résidence universitaire Les Clémentines</item>
+        <item>Résidence universitaire Les Fusains</item>
+        <item>Résidence universitaire Jean Medecin</item>
+        <item>Résidence universitaire Les Collinettes</item>
+        <item>Résidence universitaire Baie des Anges</item>
+        <item>Résidence universitaire Olivier Chesneau</item>
+    </string-array>
+
+    <string-array name="interests">
+        <item>Volunteer Work/Community Involvement</item>
+        <item>Club Memberships</item>
+        <item>Blogging</item>
+        <item>Sports</item>
+        <item>Art</item>
+        <item>Gaming</item>
+        <item>Traveling</item>
+        <item>Pet Care</item>
+        <item>Music</item>
+        <item>Cooking</item>
+        <item>Collecting</item>
+        <item>Reading</item>
+        <item>Yoga</item>
+        <item>Chess</item>
+        <item>Basketball</item>
+        <item>Baseball</item>
+    </string-array>
+
+    <string-array name="study">
+        <item>Prepa</item>
+        <item>Licence</item>
+        <item>Master</item>
+        <item>Post Master</item>
+        <item>Doctorat</item>
+        <item>Post-doctorat</item>
+    </string-array>
+
+    <string-array name="languages">
+        <item>CHINESE</item>
+        <item>SPANISH</item>
+        <item>ENGLISH</item>
+        <item>HINDI</item>
+        <item>ARABIC</item>
+        <item>PORTUGUESE</item>
+        <item>BENGALI</item>
+        <item>RUSSIAN</item>
+        <item>JAPANESE</item>
+        <item>LAHNDA</item>
+        <item>JAVANESE</item>
+        <item>GERMAN</item>
+        <item>KOREAN</item>
+        <item>FRENCH</item>
+        <item>VIETNAMESE</item>
+        <item>TURKISH</item>
+    </string-array>
+
+    <string-array name="eventType_array">
+        <item>Party</item>
+        <item>Game</item>
+        <item>Work</item>
+        <item>Study</item>
+    </string-array>
+    <string name="title_activity_main">mainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="key">AIzaSyAs4RArm8FOB8VwafAFD4UIsW0NVVrRm0U</string>
+
+    <string name="title_activity_profile">Profile</string>
+    <string name="add_interests">Add your interests here</string>
+</resources>

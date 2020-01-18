@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_profil"
+            android:icon="@drawable/ic_person_black_24dp"
+            android:title="My profile" />
+        <item
+            android:id="@+id/nav_events"
+            android:icon="@drawable/ic_event_date_and_time_symbol"
+            android:title="Events" />
+        <item
+            android:id="@+id/nav_annonc"
+            android:icon="@drawable/ic_megaphone_with_sound_waves"
+            android:title="Announcements" />
+        <item
+            android:id="@+id/nav_chat"
+            android:icon="@drawable/ic_message_bubble"
+            android:title="Chats" />
+        <item
+            android:id="@+id/nav_directory"
+            android:icon="@drawable/ic_annuaire"
+            android:title="Directory" />
+    </group>
+
+    <item android:title="Settings">
+        <menu>
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_logout"
+                android:title="Logout" />
+
+        </menu>
+    </item>
+
+</menu>

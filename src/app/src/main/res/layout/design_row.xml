@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="110sp"
+    android:layout_marginTop="8sp"
+    android:layout_marginStart="8sp"
+    android:layout_marginEnd="8sp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <View
+                android:id="@+id/view3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:background="#B4B4B4"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/eventImage"
+                android:layout_width="110sp"
+                android:layout_height="110sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/common_google_signin_btn_icon_dark" />
+
+            <ProgressBar
+                android:id="@+id/viewHolderProgressBar"
+                style="?android:attr/progressBarStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintBottom_toBottomOf="@+id/eventImage"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="@+id/eventImage"
+                app:layout_constraintTop_toTopOf="@+id/eventImage" />
+
+        </android.support.constraint.ConstraintLayout>
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/eventPlace"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginEnd="8dp"
+                android:singleLine="true"
+                android:text="Place "
+                app:layout_constraintBottom_toBottomOf="@+id/rowMapIcon"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/rowMapIcon"
+                app:layout_constraintTop_toTopOf="@+id/rowMapIcon" />
+
+            <TextView
+                android:id="@+id/eventName"
+                android:layout_width="273dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="4dp"
+                android:singleLine="true"
+                android:text="Name"
+                android:textColor="#3F51B5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/rowMapIcon"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="4dp"
+                app:layout_constraintStart_toStartOf="@+id/eventName"
+                app:layout_constraintTop_toBottomOf="@+id/eventName"
+                app:srcCompat="@drawable/ic_google_maps" />
+
+            <ImageView
+                android:id="@+id/rowDateIcon"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="4dp"
+
+                app:layout_constraintEnd_toEndOf="@+id/rowMapIcon"
+                app:layout_constraintStart_toStartOf="@+id/rowMapIcon"
+                app:layout_constraintTop_toBottomOf="@+id/rowMapIcon"
+                app:srcCompat="@drawable/ic_circle_icons_calendar" />
+
+            <TextView
+                android:id="@+id/eventDate"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:text="Date"
+                app:layout_constraintBottom_toBottomOf="@+id/rowDateIcon"
+                app:layout_constraintStart_toEndOf="@+id/rowDateIcon"
+                app:layout_constraintTop_toTopOf="@+id/rowDateIcon" />
+
+            <TextView
+                android:id="@+id/shortDescription"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:singleLine="true"
+                android:text="Short Description"
+                app:layout_constraintEnd_toStartOf="@+id/imageView5"
+                app:layout_constraintStart_toStartOf="@+id/rowDateIcon"
+                app:layout_constraintTop_toBottomOf="@+id/rowDateIcon" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:srcCompat="@drawable/participants_icon" />
+
+            <ImageView
+                android:id="@+id/rowTimeIcon"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="8dp"
+                app:layout_constraintBottom_toBottomOf="@+id/rowDateIcon"
+                app:layout_constraintStart_toEndOf="@+id/eventDate"
+                app:layout_constraintTop_toTopOf="@+id/rowDateIcon"
+                app:srcCompat="@drawable/ic_circle_icons_clock" />
+
+            <TextView
+                android:id="@+id/eventTime"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:text="Time"
+                app:layout_constraintBottom_toBottomOf="@+id/rowTimeIcon"
+                app:layout_constraintEnd_toStartOf="@+id/imageView5"
+                app:layout_constraintStart_toEndOf="@+id/rowTimeIcon"
+                app:layout_constraintTop_toTopOf="@+id/rowTimeIcon" />
+
+            <TextView
+                android:id="@+id/participantsNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginBottom="13dp"
+                android:background="@drawable/round_corner_participant"
+                android:text="0"
+                android:textColor="#ffffff"
+                android:textSize="10dp"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView5"
+                app:layout_constraintStart_toStartOf="@+id/imageView5" />
+
+            <ImageView
+                android:id="@+id/privateStar"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:visibility="invisible"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/star_private" />
+
+            <TextView
+                android:id="@+id/privateInfo"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="50dp"
+                android:layout_marginBottom="16dp"
+                android:text="This event is private.\nSend a request to participate."
+                android:visibility="invisible"
+                app:layout_constraintBottom_toTopOf="@+id/shortDescription"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="@+id/eventName"
+                app:layout_constraintTop_toBottomOf="@+id/eventName" />
+        </android.support.constraint.ConstraintLayout>
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>
